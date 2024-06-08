@@ -1,0 +1,507 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: black; */
+  /* background-color: #021728; */
+  background-color: #03182a;
+}
+
+.display h1 {
+  color: white;
+  text-align: center;
+}
+
+.btn-9 {
+  color: #fff352;
+  border: 1px solid #fff352;
+  box-shadow: 0 0 5px #fff352, 0 0 5px #fff352 inset;
+  z-index: 2;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.btn-9:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+.btn-9:hover {
+  color: #000;
+}
+.btn-9:hover:after {
+  background: #fff352;
+  -webkit-transform: scale(2) rotate(180deg);
+  transform: scale(2) rotate(180deg);
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 1),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 1),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+}
+
+.custom-btn {
+  color: #fff;
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-6 {
+  background: #8ce436;
+  line-height: 40px;
+  padding: 0;
+  border: none;
+  box-shadow: 0 0 5px #8ce436;
+}
+.btn-6 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-6:hover {
+  background: transparent;
+}
+.btn-6:before,
+.btn-6:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 2px;
+  background: #8ce436;
+  box-shadow: 0 0 5px #8ce436;
+}
+.btn-6:before {
+  right: 0;
+  top: 0;
+  transition: all 500ms ease;
+}
+.btn-6:after {
+  left: 0;
+  bottom: 0;
+  transition: all 500ms ease;
+}
+.btn-6:hover:before {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6:hover:after {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6 span:before,
+.btn-6 span:after {
+  position: absolute;
+  content: "";
+  background: #8ce436;
+  box-shadow: 0 0 5px #8ce436;
+}
+.btn-6 span:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+.btn-6 span:after {
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 500ms ease;
+}
+.btn-6 span:hover:before {
+  width: 100%;
+}
+.btn-6 span:hover:after {
+  width: 100%;
+}
+
+.nav {
+  width: 100vw;
+  height: 40px;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  /* background-color: blue; */
+}
+.infoContent {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+}
+
+.logo h5 {
+  color: white;
+
+  transition: 0.5s;
+  font-family: rastaglion;
+  margin-left: 150px;
+}
+
+.btn {
+}
+
+.text p {
+  color: white;
+}
+
+.btn-7 {
+  color: #21ebff;
+  line-height: 40px;
+  padding: 0;
+  border: none;
+}
+.btn-7 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-7:before,
+.btn-7:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #21ebff;
+  box-shadow: 0 0 5px #21ebff;
+  transition: all 0.3s ease;
+}
+.btn-7:before {
+  height: 50%;
+  width: 2px;
+}
+.btn-7:after {
+  width: 20%;
+  height: 2px;
+}
+.btn-7:hover:before {
+  height: 100%;
+}
+.btn-7:hover:after {
+  width: 100%;
+}
+.btn-7 span:before,
+.btn-7 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: #21ebff;
+  box-shadow: 0 0 5px #21ebff;
+  transition: all 0.3s ease;
+}
+.btn-7 span:before {
+  width: 2px;
+  height: 50%;
+}
+.btn-7 span:after {
+  height: 2px;
+  width: 20%;
+}
+.btn-7 span:hover:before {
+  height: 100%;
+}
+.btn-7 span:hover:after {
+  width: 100%;
+}
+
+.achieve {
+  font-size: 80px;
+  /* background-color: green; */
+  margin-top: 0;
+  margin-bottom: 0;
+  transition: 0.5s ease-in-out;
+}
+/* .submit {
+  background-color: red;
+  margin-top: 20px;
+} */
+
+.anime img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.anime {
+  width: 400px;
+  height: 400px;
+  /* background-color: lightblue; */
+  margin: 0 auto;
+}
+
+.text {
+  box-shadow: 0 5px 10px 0 brown;
+  margin: 0 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.achieve {
+  color: yellow;
+  font-size: 90px;
+  font-family: kolak;
+}
+
+.your {
+  /* color: yellow;
+  font-family: rastaglion;
+  font-size: 40px; */
+  font-family: cream;
+  color: lightblue;
+  margin-top: 0;
+  font-size: 35px;
+}
+.one,
+.two,
+.three {
+  /* background-color: gold; */
+  margin: 0 auto;
+}
+.financial {
+  color: wheat;
+  font-family: cream;
+}
+
+.cover {
+  position: relative;
+}
+.tx {
+  /* background-color: gray; */
+  /* height: 200px; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 450px;
+  margin-left: 150px;
+  height: 300px;
+  margin-top: 50px;
+  box-shadow: 0px 5px 10px 5px gold;
+}
+.set {
+  /* background-color: lightblue; */
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.submit {
+  width: 100%;
+  height: 70px;
+  /* background-color: lightblue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.one {
+  /* background-color: blueviolet; */
+  /* width: 400px; */
+}
+
+.information {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cover {
+  width: 400px;
+  height: 300px;
+
+  overflow: hidden;
+}
+
+.cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn button {
+  margin-right: 250px;
+  /* background-color: yellow; */
+}
+
+.btn {
+  /* background-color: yellow; */
+  margin-right: 100px;
+}
+
+.submit button {
+  /* padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: lightgreen; */
+}
+
+.submit button:hover {
+  /* background-color: lightblue; */
+}
+
+.infoContent h1 {
+  margin-left: 40px;
+  color: white;
+
+  /* font-family: kolak;
+
+  font-size: 50px;
+  display: inline-block;
+  transform: rotate(-7deg);
+  box-shadow: 10px 0 10px 0 red;
+  margin-left: 50px; */
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: red; */
+  margin: 0;
+  padding: 0;
+  margin-top: -15px;
+}
+
+.btn button {
+  /* padding: 7px 25px; */
+  /* width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 2px; */
+}
+
+.btn button:hover {
+  /* background-color: orange; */
+}
+
+.navItem {
+  width: 450px;
+  /* background-color: gray; */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: 0.5s ease-in-out;
+  margin-right: 50px;
+}
+
+.navItem a {
+  text-decoration: none;
+  font-size: 20px;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  transition: 0.2s ease-in-out;
+  font-family: cream;
+}
+
+.navItem a:hover {
+  background-color: red;
+}
+
+.information {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo {
+  height: 40px;
+  display: grid;
+  place-content: center;
+}
+
+@media screen and (min-width: 0) and (max-width: 700px) {
+  .navItem {
+    display: none;
+  }
+
+  .btn {
+    /* background-color: lightblue; */
+    margin-right: 20px;
+  }
+  .btn button {
+    /* padding: 10px 40px; */
+  }
+
+  .information {
+    grid-template-columns: 1fr;
+  }
+  .nav {
+    grid-template-columns: 3fr 1fr;
+  }
+  .logo h5 {
+    text-align: left;
+    color: lightblue;
+    margin-left: 20px;
+  }
+
+  .tx {
+    /* margin-left: 0; */
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .anime {
+    margin-top: 30px;
+  }
+
+  .logo {
+    /* background-color: pink; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .infoContent {
+    grid-template-columns: 1fr;
+  }
+
+  .cover {
+    background-color: red;
+    margin: 0 auto;
+  }
+
+  .achieve {
+    font-size: 60px;
+  }
+
+  .one,
+  .two,
+  .three {
+    /* background-color: gold; */
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 4000px) {
+  .navItem {
+    margin-left: 300px;
+  }
+
+  .infomation {
+    /* background-color: red; */
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .cover {
+    width: 300px;
+    height: 200px;
+  }
+}
